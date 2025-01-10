@@ -1,9 +1,27 @@
+/* Asterisk wildcard selector to override the default styles of the browser*/
+* { margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic Project Styles*/
+    color:#3a3a3a
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+}
+/*Header*/
 header {
     background-color: lightcoral;
 }
+/*Main*/
 main {
     background-color: lightblue;
 }
+/*Footer*/
 footer {
     background-color: orange;
 }

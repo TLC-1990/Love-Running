@@ -1,27 +1,33 @@
-/* Asterisk wildcard selector to override the default styles of the browser*/
-* { margin:0;
-    padding:0;
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-/*General Styles*/
+
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic Project Styles*/
-    color:#3a3a3a
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
+    /* Generic project styles */
+    color: #3a3a3a;
 }
-/*Header*/
+
+
+/* Header */
 header {
     background-color: lightcoral;
 }
-/*Main*/
+
+/* Main content */
 main {
     background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
-/*Footer*/
+
+/* Footer */
 footer {
     background-color: orange;
 }

@@ -133,6 +133,14 @@ main {
 #benefits p {
     padding: 0 20px;
 }
+#benefits-physical p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#benefits-mental p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 #benefits hr {
     border-top: 1px solid #3a3a3a;

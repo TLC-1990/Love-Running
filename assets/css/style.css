@@ -257,6 +257,7 @@ main {
     flex-direction: column;
     }
     #signup {
+        background-image: url("../images/signup-image.webp");
         background-size:cover;
         background-position:75%;
         flex-grow:1;
@@ -273,16 +274,16 @@ main {
         color: #fafafa;
         margin-bottom: 20px;
     }
-.text-input {
-    background: transparent;
-     color:#fafafa;
-     width: 100%;
-     height: 25px;
-     margin: 5px 0 20px 0;
-     border: 1px solid #fafafa;
-     border-radius: 2px;   
-     padding: 0 5px;
-}
+    .text-input {
+        background: transparent;
+        color: #fafafa; 
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #fafafa;
+        border-radius: 2px;   
+        padding: 0 5px;
+    }
 .radio-buttons {
     width: 100%;
     display: flex;

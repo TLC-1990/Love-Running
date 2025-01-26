@@ -249,7 +249,8 @@ main {
     #signup {
         background-position: center;
         position:relative;
-        padding: 150px 10%;
+        left: 10%;
+        top: 150px;
     }
     #signup-form {
         position:absolute;
@@ -341,7 +342,7 @@ main {
 #photos {
     column-count: 3;
 }
-}
+
 
 
 /* Large devices (laptops and desktops, 992px and up) */

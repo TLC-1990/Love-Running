@@ -246,7 +246,24 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    #signup {
+        background-position: center;
+        position:relative;
+        padding: 150px 10%;
+    }
+    #signup-form {
+        position:absolute;
+        max-width:400px;
+    }
+    .text-input:hover {
+        border-color:#f16c6b;
+    }
+    .join-button:hover {
+        background-color:#fafafa;
+        color:#454b1b;
+    }
 
+}
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -267,7 +284,7 @@ main {
     }
     #signup-form {
         color:#ffffff;
-        background-color:rgba (60, 60, 60, 0.6);
+        background-color:rgba(60, 60, 60, 0.6);
         padding: 30px;
     }
     #signup-form>h2 {

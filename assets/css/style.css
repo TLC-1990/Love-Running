@@ -246,25 +246,7 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    #signup {
-        background-position: center;
-        position:relative;
-        left: 10%;
-        top: 150px;
-    }
-    #signup-form {
-        position:absolute;
-        max-width:400px;
-    }
-    .text-input:hover {
-        border-color:#f16c6b;
-    }
-    .join-button:hover {
-        background-color:#fafafa;
-        color:#454b1b;
-    }
 
-}
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -342,7 +324,24 @@ main {
 #photos {
     column-count: 3;
 }
-
+#signup {
+    background-position: center;
+    position:relative;
+    left: 10%;
+    top: 150px;
+}
+#signup-form {
+    position:absolute;
+    max-width:400px;
+}
+.text-input:hover {
+    border-color:#f16c6b;
+}
+.join-button:hover {
+    background-color:#fafafa;
+    color:#454b1b;
+}
+}
 
 
 /* Large devices (laptops and desktops, 992px and up) */
